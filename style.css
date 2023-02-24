@@ -128,3 +128,19 @@ section .main{
     font-size: 14px;
     margin-right: 25px;
 }
+
+
+
+/*responsive*/
+
+@media (max-width:768px){
+    .search{
+        width: 80%;
+    }
+    .icons{
+        width: 90%;
+    }
+    .row ul{
+        display: block;
+    }
+}
